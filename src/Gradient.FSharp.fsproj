@@ -7,11 +7,23 @@
     <Authors>Victor Milovanov</Authors>
     <Product>Gradient</Product>
     <Description>F# helpers for Gradient (core component of LostTech.TensorFlow)</Description>
+
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+
+    <DebugSymbols>true</DebugSymbols>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="PyList.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
