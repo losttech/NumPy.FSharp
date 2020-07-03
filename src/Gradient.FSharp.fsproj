@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>LostTech.Gradient.FSharp</AssemblyName>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Authors>Victor Milovanov</Authors>
+    <Product>Gradient</Product>
+    <Description>F# helpers for Gradient (core component of LostTech.TensorFlow)</Description>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="PyList.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gradient.Runtime" Version="0.4.0" />
+  </ItemGroup>
+
+</Project>

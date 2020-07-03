@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30223.230
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gradient.FSharp", "src\Gradient.FSharp.fsproj", "{2F4006B0-60E9-4AED-8C0B-4408649B4D8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{C2A20344-AFC3-4BD5-962B-1824FC62297B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "test\Tests.fsproj", "{6F415AA6-D609-4C5A-A74A-C5B211A8F3F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4006B0-60E9-4AED-8C0B-4408649B4D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4006B0-60E9-4AED-8C0B-4408649B4D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4006B0-60E9-4AED-8C0B-4408649B4D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4006B0-60E9-4AED-8C0B-4408649B4D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F415AA6-D609-4C5A-A74A-C5B211A8F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F415AA6-D609-4C5A-A74A-C5B211A8F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F415AA6-D609-4C5A-A74A-C5B211A8F3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F415AA6-D609-4C5A-A74A-C5B211A8F3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A90DE9-26E0-46B6-8365-79C5E8092988}
+	EndGlobalSection
+EndGlobal
