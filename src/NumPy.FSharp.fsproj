@@ -28,8 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LostTech.Gradient.FSharp" Version="0.1.0" />
-    <PackageReference Include="LostTech.NumPy" Version="0.2.2" />
+    <PackageReference Include="LostTech.Gradient.FSharp" Version="[0.1.0,0.2.0)" />
+    <PackageReference Include="LostTech.NumPy" Version="[0.2.2,0.3.0)" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
