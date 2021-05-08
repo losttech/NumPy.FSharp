@@ -7,8 +7,11 @@
     <Authors>Victor Nova</Authors>
     <Product>Gradient</Product>
     <Description>F# helpers for LostTech.NumPy</Description>
-
+    <Copyright>Lost Tech LLC</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>numpy;scientific</PackageTags>
+    <PackageIcon>NumPy-128.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/losttech/NumPy.FSharp</PackageProjectUrl>
 
     <DebugSymbols>true</DebugSymbols>
     <IncludeSymbols>true</IncludeSymbols>
@@ -25,6 +28,10 @@
 
   <ItemGroup>
     <None Include="..\LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="NumPy-128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
