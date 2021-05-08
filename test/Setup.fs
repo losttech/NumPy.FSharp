@@ -1,8 +1,9 @@
 ﻿[<NUnit.Framework.SetUpFixture>]
-module LostTech.Gradient.Setup
+module LostTech.NumPy.Setup
 
 open System
-open Python.Runtime
+
+open LostTech.Gradient
 
 [<NUnit.Framework.OneTimeSetUp>]
 let SetUp () =
@@ -10,4 +11,3 @@ let SetUp () =
     if envSetting <> null then
         GradientEngine.UseEnvironmentFromVariable("GRADIENT_TEST_PYTHON_ENVIRONMENT") |> ignore
     GradientEngine.EnsureInitialized() |> ignore
-    PythonEngine.BeginAllowThreads() |> ignore

@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>LostTech.Gradient.FSharp</AssemblyName>
+    <AssemblyName>LostTech.NumPy.FSharp</AssemblyName>
     <VersionPrefix>0.1.0</VersionPrefix>
-    <Authors>Victor Milovanov</Authors>
+    <Authors>Victor Nova</Authors>
     <Product>Gradient</Product>
-    <Description>F# helpers for Gradient (core component of LostTech.TensorFlow)</Description>
+    <Description>F# helpers for LostTech.NumPy</Description>
 
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 
@@ -19,16 +19,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="PyList.fs" />
+    <Compile Include="slice.fs" />
+    <Compile Include="np.fs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE.txt" Pack="true" PackagePath=""/>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Gradient.Runtime" Version="0.4.0" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+    <PackageReference Include="LostTech.Gradient.FSharp" Version="0.1.0" />
+    <PackageReference Include="LostTech.NumPy" Version="0.2.2" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

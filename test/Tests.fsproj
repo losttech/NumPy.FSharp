@@ -15,12 +15,12 @@
 
   <ItemGroup>
     <Compile Include="Setup.fs" />
-    <Compile Include="PyListTests.fs" />
+    <Compile Include="NpTests.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Gradient.FSharp.fsproj" />
+    <ProjectReference Include="..\src\NumPy.FSharp.fsproj" />
   </ItemGroup>
 
 </Project>
